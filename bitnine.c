@@ -111,3 +111,16 @@ int main() {
     fibo->data.function.op = SUB;
     fibo->data.function.left = sub;
     fibo->data.function.right = makeInt
+        
+        
+       
+// Differences between the three approaches:
+
+// Recursive Approach:
+
+// Advantage: Simple and straightforward implementation.
+// Disadvantage: It can have exponential time complexity and may lead to redundant computations for larger values of n.
+// Top-Down Dynamic Programming Approach:
+
+// Advantage: Memoization eliminates redundant computations, resulting in improved efficiency compared to the recursive approach.
+// Disadvantage: It requires additional memory for the memoization array.
